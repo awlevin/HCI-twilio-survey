@@ -1,6 +1,8 @@
 # Simple Twilio Survey Collector (for CS 570 at UW-Madison)
 To run the program, enter Twilio credentials in the `start.sh` shell script, change permissions on the script file using `chmod <number> start.sh` if necessary. `<number>` should probably be `700` if you want the script to be private (i.e. only you can read, write, execute) or `755` if you want those same permissions but everyone else will only have read and execute permissions.
 
+Also make sure to update `participants.json` so the Flask server knows to whom it should send the survey!
+
 ### Instructions
 Before doing anything, you'll need to download [ngrok](https://ngrok.com/download "Download ngrok") and relocate it to the root of this project's directory.
 
